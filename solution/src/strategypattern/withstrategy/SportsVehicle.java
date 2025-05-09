@@ -1,4 +1,10 @@
 package strategypattern.withstrategy;
 
-public class SportsVehicle {
+import strategypattern.withstrategy.strategy.SportsDriveStrategy;
+
+public class SportsVehicle extends Vehicle {
+    public SportsVehicle() {
+        super(new SportsDriveStrategy());
+    }
+
 }

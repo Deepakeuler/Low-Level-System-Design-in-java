@@ -1,4 +1,4 @@
-package withoutstrategy;
+package strategypattern.withoutstrategy;
 
-public class GoodsVehicle extends Vehicle{
+public class GoodsVehicle extends Vehicle {
 }
