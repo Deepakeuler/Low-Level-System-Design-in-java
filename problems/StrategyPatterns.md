@@ -10,7 +10,7 @@ systems
    and Truck and OffRoadingVehicle.
 2. now there's method drive in our base class implementing normal drive.
 3. but in the derived classes we have to implement the drive method in a different way.
-4. this driving mode needs to be overridden by sports car and offloading vehicle because they want special type of
+4. this driving mode needs to be overridden by sports car and offroading vehicle because they want special type of
    driving. which is same for both, also imagine some other vehicles are coming in future which also needs to implement
    special type or there is another method in vehicle which in future will be overridden by multiple classes and few of
    them will be implementing that in same manner. This will lead duplicate of code at multiple locations.
