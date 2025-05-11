@@ -1,4 +1,4 @@
-package liskovSubstitution;
+package liskovSubstitution.withLiskov;
 
 public class GEngineVehicle extends GVehicle{
 

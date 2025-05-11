@@ -1,11 +1,17 @@
 package liskovSubstitution;
 
+import liskovSubstitution.withLiskov.GBicycle;
+import liskovSubstitution.withLiskov.GCar;
+import liskovSubstitution.withLiskov.GMotorCycle;
+import liskovSubstitution.withLiskov.GVehicle;
+
 public class LiskovStarter {
 
 
-    //here Bicycle is not a vehicle and it will throw a null pointer exception for engine which is breaking our Liskov Substitution principle
+    //here Bicycle is not a motorvehicle and it will throw a null pointer exception for engine which is breaking our Liskov Substitution principle
     //here Vehicle is dependent on Bicycle which shouldn't be the case, now what we'll do is create a more generic Vehicle class which will be
-    //common to all the vehicles. Name - GVehicle and now make multiple GVehicle(vehicle subtype) classes for each vehicle
+    //common to all the vehicles. Name - GVehicle and now make multiple GVehicle(vehicle subtype) --> as GEngineVehicle and now make multiple
+    // GEngineVehicle(vehicle subtype) classes for each vehicle
     public static void main(String[] args) {
 //        Vehicle v1 = new Car();
 //        Vehicle v2 = new Bicycle();

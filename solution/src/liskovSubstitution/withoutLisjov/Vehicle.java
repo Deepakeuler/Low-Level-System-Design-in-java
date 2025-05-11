@@ -1,4 +1,4 @@
-package liskovSubstitution;
+package liskovSubstitution.withoutLisjov;
 
 public class Vehicle {
     public int getNumberOfWheels() {

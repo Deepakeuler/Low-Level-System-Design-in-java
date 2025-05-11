@@ -1,6 +1,6 @@
-package liskovSubstitution;
+package liskovSubstitution.withoutLisjov;
 
-public class Car extends Vehicle{
+public class Car extends Vehicle {
 
     @Override
     public int getNumberOfWheels() {
